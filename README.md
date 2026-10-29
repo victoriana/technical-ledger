@@ -2,6 +2,7 @@
 
 ## resume is a place holder - it will be cleaned up as needed 
 
+```
 RAVI BASAWA 
 Senior MLOps / LLMOps Engineer  ·  AWS AI Platform Specialist
 Remote (Atlanta, GA)  ·  rbasawa1@gmail.com  ·  678-851-2365 
@@ -88,4 +89,5 @@ LangChain/LangGraph experimentation
 Machine Learning Conference (2018) 
  AI/Data Science Conferences: Internet of Insurance AI panel speaker (2019); LLM fine-tuning workshop  
 GPT/OpenAI domain-specific customization (2023) 
- Platforms: GitHub, Tableau (Creator), MuleSoft,  self-directed an
+ Platforms: GitHub, Tableau (Creator), MuleSoft,   self-directed and employer-sponsored upskilling 
+```
