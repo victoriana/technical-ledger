@@ -1,6 +1,6 @@
 # technical-ledger
 
-## resume is a place holder - it will be cleaned up as needed 
+## This ledger documents architectural decision records (ADRs), system migration patterns, and infrastructure engineering blueprints. For a consolidated, high-level summary of my professional background and enterprise impact before exploring the technical logs, an executive one-page overview is included below.
 
 ```
 RAVI BASAWA, US citizen
