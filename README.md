@@ -1,6 +1,8 @@
-# technical-ledger
+# Technical Ledger
 
-## This ledger documents architectural decision records (ADRs), system migration patterns, and infrastructure engineering blueprints. For a consolidated, high-level summary of my professional background and enterprise impact before exploring the technical logs, an executive one-page overview is included below.
+Welcome to my active engineering ledger. This repository serves as a markdown-native portfolio log, centralizing my professional background, core technical competencies, and enterprise impact. 
+
+An executive one-page summary of my career history and system architecture credentials is detailed below. 
 
 ```
 RAVI BASAWA, US citizen
