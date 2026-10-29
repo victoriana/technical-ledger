@@ -3,91 +3,42 @@
 ## resume is a place holder - it will be cleaned up as needed 
 
 ```
-RAVI BASAWA 
-Senior MLOps / LLMOps Engineer  ·  AWS AI Platform Specialist
-Remote (Atlanta, GA)  ·  rbasawa1@gmail.com  ·  678-851-2365 
+RAVI BASAWA, US citizen
+Senior MLOps / LLMOps Engineer · AWS AI Platform Specialist
+Atlanta, GA (open to hybrid or remote) · rbasawa1@gmail.com · 678-851-2365
+github.com/[handle] · linkedin.com/in/[handle]
+
 PROFESSIONAL SUMMARY
- 
-Senior engineer with 30+ years in IT, bridging data science and production-grade operations across Insurance, 
-Telecom, and Retail. Hands-on background in Linux infrastructure, Big Data platforms, and NoSQL at enterprise scale, 
-with some working knowledge of AWS cloud services including SageMaker MLOps pipelines, Bedrock/Claude LLM 
-governance, Lambda/Step Functions, Redshift, and EC2/EKS. Experienced in CI/CD automation, containerized 
-workloads, and end-to-end cloud migrations under enterprise security and governance standards. Fluent in Python, 
-Java, and Infrastructure-as-Code patterns. 
-CORE COMPETENCIES
- 
-MLOps / LLMOps: AWS SageMaker (Pipelines, Endpoints, Model Registry), Bedrock/Claude, LangChain, LangGraph, 
-Agentic AI, Prompt Engineering, NL-to-SQL, Model Lifecycle Management 
-Cloud & IaC: AWS (Lambda, Step Functions, S3, EC2, EKS, Redshift, API Gateway, CloudWatch), Databricks, , 
-Docker 
-CI/CD & Automation: Jenkins, GitHub, GitLab CI, Conda, Maven; automated QA/dev test harnesses across multi-team 
-environments 
-Data & Platforms: Redshift, Oracle, Cassandra (NoSQL),, DataStage ETL, Tableau, MuleSoft 
-Languages: Python (advanced), Java (Spring Framework), C/C++, SQL, Bash/Linux scripting 
-Security & Governance: PKI-based access, vulnerability patching, management, TDLC compliance 
-PROFESSIONAL EXPERIENCE
- 
-NEW YORK LIFE INSURANCE  |  Senior Associate  Tech Data AI Ventures (TDAV) 
-2014  2026
- 
-Remote, Atlanta GA 
- LLMOps & AI Development: Pioneered enterprise LLMOps on AWS SageMaker and Bedrock; built agentic 
-Claude (Bedrock) applications and developed a natural-language-to-SQL proof-of-concept against a Redshift 
-correspondence data warehouse, enabling AI-driven business reporting on multi-million-record insurance 
-datasets. 
- AWS Cloud Migration: Architected and led migration of Java pre-processing and post-processing/eDelivery 
-pipelines from on-prem Linux to AWS Cloud via Lambda/Step Functions integration; achieved zero production 
-incidents across all migration waves. 
- Data Modernization: Replaced legacy EDM Hadoop/Tableau reporting backend with AWS Redshift, establishing 
-a scalable cloud data foundation and enabling planned AI agent integration for client correspondence reporting. 
- API & ETL Engineering: Built production-grade RESTful/SOAP APIs in Spring Framework/Java; developed ETL 
-pipelines for mailing intake and e-delivery; delivered Python automation scripts adopted into active BAU cloud QA 
-delivery. 
- CI/CD & Testing Platform: Designed and maintained Jenkins-based performance/stress testing frameworks and 
-Python/Java automation infrastructure serving 5+ concurrent teams; trained and mentored teammates and 
-contractors on automation, GitHub, and AWS. 
- Security & Compliance: Remediated critical security vulnerabilities including Log4J patching and FTP/SFTP 
-issues; enforced PKI-based access across Jenkins pipelines; implemented correspondence-wide password 
-management remediation. 
- Industry Engagement: Panelist at Internet of Insurance convention (2019); attended LLM fine-tuning workshop at 
-Southern Data Science & AI Conference (2023). 
-AT&T
-  |  Product Owner / Tech Architect  Big Data & Cloud Platform 2012  2014 
-Atlanta, GA 
- Architected a Big Data/NoSQL cloud offering built on Apache Cassandra, designing secure, multi-cluster/multi-
-tenant deployments for enterprise-scale telecom analytics workloads. 
-Established governance frameworks and elastic scaling patterns for distributed NoSQL environments, improving 
-cost efficiency and reliability at carrier-grade scale. 
-AIRSAGE  |  R&D Product Architect 2010  2012 
-Atlanta, GA 
- Developed 'FastCache,' a high-performance in-memory geo-fencing and breadcrumbing engine enabling sub-
-second spatial queries over wireless signal datasets. 
- Implemented privacy-by-design protocols for Population Analytics and built comprehensive test suites for Wireless 
-Signal Extraction. 
- Founded and led 'ShareJam,' a technical architecture forum driving cross-team engineering knowledge sharing.
-EARLY CAREER  (1994  2010) 
-IT professional since 1994 (following M.S. CS, University of Georgia), with early career spanning enterprise consulting, 
-applied research, and software engineering across retail, pharma, and academic environments. 
- Accenture  Senior Systems Analyst: Customized Oracle Retail Advanced Inventory Planning (AIP) for 
-enterprise clients; served as U.S. Capability Lead for C/C++/UNIX. Site Lead for a predictive analytics center 
-managing statistical modeling delivery across client engagements. 
- Data Mining & Research: Developed commercial data mining and pharmco-clinical applications spanning 
-bioinformatics and supply chain inventory modeling; graduate research in Bioinformatics (Georgia State PhD 
-program) focused on computational tools for molecular modeling. 
+Hands-on MLOps/LLMOps Engineer shipping production AI on AWS — agentic Claude apps on Bedrock, SageMaker pipelines, and NL-to-SQL/RAG workloads over multi-million-record Redshift warehouses. I write the Python and Java myself, deploy through CI/CD, and own what runs in production. Fast-moving, tool-current, and most useful embedded with a team that's actually building.
+
+CORE SKILLS
+LLMOps/GenAI: AWS Bedrock (Claude), agentic AI, LangChain/LangGraph, RAG, prompt engineering, NL-to-SQL, model governance & evaluation
+MLOps: SageMaker (Pipelines, Endpoints, Model Registry), model life-cycle management, CI/CD for ML, endpoint monitoring (CloudWatch)
+Cloud/IaC: AWS: Lambda, Step Functions, API Gateway, S3, EC2, EKS, Redshift, CloudWatch, IAM/PKI; Docker
+Data Platforms: Databricks (lakehouse/notebook workflows), Redshift, Oracle, Cassandra ( NoSQL), Tableau, MuleSoft
+CI/CD/Automation: Jenkins, GitHub, Conda; automated QA/performance & stress harnesses for 5+ concurrent teams
+Languages: Python (advanced), Java (Spring Framework), C/C++, SQL, Bash
+
+RECENT & RELEVANT EXPERIENCE
+NEW YORK LIFE INSURANCE — Senior Associate, Tech Data AI Ventures (TDAV)Atlanta, GA  — 2014 – 2026
+LLMOps & Agentic AI (AWS Bedrock / SageMaker)
+• Pioneered enterprise LLMOps on AWS SageMaker and Bedrock; built agentic Claude applications with LangChain/LangGraph orchestration, version governance, and evaluation gates for production release.
+• Delivered NL-to-SQL assistant over Redshift correspondence warehouse (multi-million records), enabling self-service AI-driven business reporting.
+• Established model/artifact lifecycle practices — registry, versioning, endpoint deployment, and CloudWatch-based monitoring — aligned with enterprise security.
+AWS Cloud Migration & Serverless Architecture
+• Migrated Java pre/post-processing pipelines from on-prem Linux to AWS via Lambda, Step Functions, API Gateway, and S3 event triggers — zero production incidents across all migration waves.
+• Replaced legacy EDM Hadoop/Tableau reporting with Amazon Redshift, creating a scalable cloud data foundation for AI agent integration.
+Platform, API & ETL Engineering
+• Built production RESTful/SOAP APIs in Java/Spring and Python microservices; developed ETL pipelines for mailing intake and e-delivery.
+• Authored Python automation adopted into active BAU cloud delivery; maintained containerized (Docker/EKS) workloads supporting multiple concurrent releases.
+CI/CD, Testing & Technical Leadership
+• Designed Jenkins-based CI/CD plus performance/stress-testing frameworks serving 5+ concurrent teams; pair-programmed with and upskilled engineers and contractors on automation, Git workflows, and AWS.
+• Remediated critical security vulnerabilities including FTP/SFTP exposure; enforced PKI-based access across pipelines; led credential-management remediation under TDLC governance.
+
+EARLIER CAREER — AT&T, AirSage, Accenture | Big Data, Cloud & Enterprise Software
+Technical Architect and R&D/Product roles across telecom, retail, and consulting: architected a multi-tenant Apache Cassandra NoSQL platform at carrier scale for AT&T; built "FastCache," an in-memory geo-fencing engine delivering sub-second spatial queries at AirSage; led U.S. C/C++/UNIX capability and a predictive-analytics center for enterprise clients at Accenture. Full details available on request.
+
 EDUCATION
- 
-M.S. Computer Science  ·  University of Georgia 
-B.E. Electrical Engineering  ·  Georgia Institute of Technology 
-Graduate Studies in Bioinformatics  ·  Georgia State University (PhD program) 
-TRAINING & CERTIFICATIONS
- 
- AWS Serverless Learning Path (8 units): Lambda, API Gateway, Step Functions, scaling, security, and 
-observability  AWS Skill Builder 
- ML/LLM Engineering: SageMaker MLOps onboarding, Bedrock/Claude agentic app development, 
-LangChain/LangGraph experimentation 
- Machine Learning with Python & TensorFlow: Full-day intensive workshop, Data Science Technology & 
-Machine Learning Conference (2018) 
- AI/Data Science Conferences: Internet of Insurance AI panel speaker (2019); LLM fine-tuning workshop  
-GPT/OpenAI domain-specific customization (2023) 
- Platforms: GitHub, Tableau (Creator), MuleSoft,   self-directed and employer-sponsored upskilling 
+M.S., Computer Science — University of Georgia
+B.E., Electrical Engineering — Georgia Institute of Technology
 ```
