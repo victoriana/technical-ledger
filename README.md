@@ -6,7 +6,7 @@ An executive one-page summary of my career history and system architecture crede
 
 ```
 RAVI BASAWA, US citizen
-Senior MLOps / LLMOps Engineer · AWS AI Platform Specialist
+Senior Systems & Infrastructure Engineer | Enterprise DevOps & Data Pipelines
 Atlanta, GA (open to hybrid or remote) · rbasawa1@gmail.com · 678-851-2365
 github.com/victoriana · linkedin.com/in/ravibasawa
 
