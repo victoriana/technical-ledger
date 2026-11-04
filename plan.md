@@ -3,6 +3,7 @@
 **Cadence:** Sunday–Friday, 4 hrs/day focused engineering. Saturday = hard rest.
 **Working days:** ~48 | **Total hours:** ~192
 **Holidays protected:** Thanksgiving (11/26), Christmas Eve/Day (12/24–25), New Year's Day (1/1), GA Filk (1/8–9)
+**Critical Goal:** Secure at least one upstream ROS 2 / `rclrs` contribution.
 
 ---
 
@@ -26,7 +27,8 @@
 | Tue 11/17 | Port talker/listener to Rust; publish synthetic `sensor_msgs/Imu` |
 | Wed 11/18 | Second Rust node subscribes; confirm end-to-end pub/sub loop |
 | Thu 11/19 | QoS profile analysis: reliability vs best-effort tradeoffs for sensor streams |
-| Fri 11/20 | Timestamp alignment utility; document multi-node clock skew implications |
+| Fri 11/20 | **ROS2 Contribution Sprint #1:** Review `rclrs` or `ros2_tutorials` documentation for gaps/typos. Submit PR. |
+| Sat 11/21 | **REST DAY** |
 
 **Phase Gate:** Two Rust ROS2 nodes exchanging IMU-shaped messages inside devcontainer.
 
@@ -78,7 +80,8 @@
 | Tue 12/15 | Perception node: subscribe ROS2 metrics → format agent context window |
 | Wed 12/16 | Reasoning node: LLM call outputs structured coaching decision object (not free text) |
 | Thu 12/17 | Action node: publish ROS2 feedback topic + write annotated telemetry to disk |
-| Fri 12/18 | Wire graph end-to-end; run full cycle on simulated data |
+| Fri 12/18 | **ROS2 Contribution Sprint #2:** Identify a missing feature or bug in `rclrs` (e.g., specific QoS handling) and submit PR. |
+| Sat 12/19 | **REST DAY** |
 
 ### Week 7 (Dec 20–26): Evaluation Loop & Guardrails
 | Day | Deliverable |
@@ -138,6 +141,7 @@ Target mix: **GitHub roles** + **Atlanta hybrid** + **national remote**, pursued
 
 - [ ] `ros2-rust-workspace`: six-node Rust/ROS2 fusion pipeline, tested, containerized
 - [ ] `acro-spin`: full-lifecycle agentic system (perceive → reason → act → evaluate → adapt)
+- [ ] **Upstream Contribution:** At least one merged PR (or active discussion) in `rclrs` or `ros2`
 - [ ] CI/CD green on both repos; versioned configs with rollback path
 - [ ] Architecture diagrams + READMEs written in systems-engineering language
 - [ ] Screen-captured demo available for recruiters
