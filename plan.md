@@ -12,20 +12,21 @@
 | Date | Action | Source |
 |---|---|---|
 | Sun 11/8 | Order sensor/processing parts (see list below) | Adafruit + Amazon Prime |
-| Mon 11/9 | Order **Koretch Portable Dance Floor (32-inch)** — *Standardized Rotational Test Platform (SRTP)* | Amazon Prime |
 | Wed 11/11 | Verify delivery of all components | — |
 | Fri 11/13 | Gather fitting materials (compression sleeves, 3M VHB tape, cohesive wrap) | Pharmacy / Amazon |
 
-### Purchase List (~$215 total)
--   6x BNO055 Breakout Boards (Adafruit #1749 or SparkFun SEN-13284)
--   6x ESP32-WROOM-32 Dev Boards (Amazon, DOIT or Espressif brand)
--   6x 3.7V 300mAh LiPo Batteries w/ JST-PH connector (Amazon)
--   6x TP4056 Charging Modules (Amazon)
--   3x Ankle Compression Sleeves + 3x Wrist Support Sleeves (pharmacy/Amazon)
--   1x Wide Elastic Athletic Belt (for waist mount)
--   1x Rigid Plastic Headband + 3M VHB Double-Sided Tape + Cohesive Bandage Wrap
--   1x Koretch Portable Dance Floor (32-inch, Round) — *SRTP*
--   USB-C cables for flashing/debugging
+### Purchase List (~$160 total)
+| Item | Qty | Est. Cost | Notes |
+|---|---|---|---|
+| BNO055 Breakout Boards | 6 | ~$120 | Adafruit/SparkFun. 9-DOF with onboard fusion. |
+| ESP32-WROOM-32 Dev Boards | 7 | ~$45 | **6 Sensor Nodes** + **1 Stationary Gateway Node**. |
+| 3.7V 300mAh LiPo Batteries | 6 | ~$30 | JST-PH connector for easy plug-and-play. |
+| TP4056 Charging Modules | 6 | ~$6 | For charging the battery packs. |
+| Compression Sleeves | 6 | ~$15 | Ankle (3) + Wrist (3) sleeves for rigid sensor mounting. |
+| Athletic Belt + Headband | 1 + 1 | ~$20 | Wide elastic belt for waist; rigid plastic headband for head. |
+| 3M VHB Tape + Cohesive Wrap | 1 kit | ~$10 | For securing sensors inside sleeves/headband. |
+| USB-C Cables | 7 | ~$15 | For flashing and powering the gateway. |
+| **Total Hardware** | | **~$160** | *SRTP (Koretch Turnboard) already owned.* |
 
 ---
 
@@ -37,7 +38,7 @@
 | Sun 11/8 | Toolchain install; `rustlings` — variables, functions, control flow; **ORDER HARDWARE** |
 | Mon 11/9 | Ownership + borrowing exercises (highest-friction concept; allocate full block) |
 | Tue 11/10 | Structs, enums, pattern matching; CLI parsing IMU-shaped JSON |
-| Wed 11/11 | Error handling (`Result`, `Option`, `?`); refactor CLI; **ORDER SRTP** |
+| Wed 11/11 | Error handling (`Result`, `Option`, `?`); refactor CLI |
 | Thu 11/12 | Generics + traits; map ROS2 message types to Rust structs via `rclrs` |
 | Fri 11/13 | Collections + iterators; moving-average filter in pure Rust; **GATHER FITTING MATERIALS** |
 
@@ -51,7 +52,7 @@
 | Thu 11/19 | QoS profile analysis: reliability vs best-effort tradeoffs for sensor streams |
 | Fri 11/20 | **ROS2 Contribution Sprint #1:** Review `rclrs`/`ros2_tutorials` docs for gaps. Submit PR. |
 
-**Phase Gate:** Two Rust ROS2 nodes exchanging IMU-shaped messages inside devcontainer. All hardware on desk. SRTP ordered.
+**Phase Gate:** Two Rust ROS2 nodes exchanging IMU-shaped messages inside devcontainer. All hardware on desk. SRTP on floor.
 
 ---
 
@@ -65,7 +66,7 @@
 | Tue 11/24 | Unit tests for calibration module; convergence assertions within tolerance |
 | Wed 11/25 | Light day (Thanksgiving week): doc comments, module cleanup |
 | Thu 11/26 | **REST — protected holiday** |
-| Fri 11/27 | **Hardware Assembly Day:** Flash firmware onto 1 ESP32+BNO055 unit; verify quaternion output over serial. Mount using compression sleeve hack. |
+| Fri 11/27 | **Hardware Assembly Day:** Flash 7th ESP32 as **Gateway Node** (USB to laptop). Flash remaining 6 as **Sensor Nodes** (ESP-NOW). Verify 1-to-1 RF link. Mount Sensor Node #1 to waist using compression sleeve. |
 
 ### Week 4 (Nov 29–Dec 5): Madgwick AHRS + Single Node Real Data
 | Day | Deliverable |
@@ -85,7 +86,7 @@
 | Tue 12/8 | Tuck efficiency: wristlet radius magnitude vs waist angular velocity |
 | Wed 12/9 | Spotting stability: head yaw ≈ 0 while waist yaw high during spin phase |
 | Thu 12/10 | Contact-state detection (grounded/flight) via waistband accel signature → ZUPT trigger |
-| Fri 12/11 | **Flash + mount remaining 5 nodes.** Run 2-node simultaneous capture (waist + one ankle). Verify timestamp alignment across physical devices. |
+| Fri 12/11 | **Flash + mount remaining 5 nodes.** Run 2-node simultaneous capture (waist + one ankle). Verify timestamp alignment across physical devices via ESP-NOW gateway. |
 
 **Phase Gate:** Six-node fusion producing four quantitative kinematic metrics. At least two physical nodes streaming concurrently alongside synthetic sources.
 
