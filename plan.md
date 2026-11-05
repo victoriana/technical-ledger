@@ -3,7 +3,7 @@
 **Cadence:** Sunday–Friday, 4 hrs/day focused engineering. Saturday = hard rest.
 **Working days:** ~48 | **Total hours:** ~192
 **Holidays protected:** Thanksgiving (11/26), Christmas Eve/Day (12/24–25), New Year's Day (1/1), GA Filk (1/8–9)
-**Critical Goals:** Secure at least one upstream ROS 2 / `rclrs` contribution; validate sensor fusion against physical hardware on SRTP using Pirouette en Tendu as canonical case; produce professional YouTube demo.
+**Critical Goals:** Secure at least one upstream ROS 2 / `rclrs` contribution; validate sensor fusion against physical hardware on SRTP using Pirouette en Tendu as Motion Primitive; produce professional YouTube demo.
 
 ---
 
@@ -120,18 +120,18 @@
 
 ## Phase 4 — Production Hardening & Demo (Week 8)
 
-### Week 8 (Dec 27–Jan 2): CI/CD, Observability, CVM Capture, YouTube Demo
+### Week 8 (Dec 27–Jan 2): CI/CD, Observability, Motion Primitive Capture, YouTube Demo
 | Day | Deliverable |
 |---|---|
 | Sun 12/27 | GitHub Actions: lint, unit tests, integration tests, Docker image build — green on every push |
 | Mon 12/28 | Versioning for agent prompts + calibration params; rollback to last-known-good config |
 | Tue 12/29 | Structured logging with correlation IDs across ROS2 nodes and agent steps |
-| Wed 12/30 | Final README with full-lifecycle framing + architecture diagram + CVM protocol section |
-| Thu 12/31 | **CVM Capture Session:** Perform barefoot Pirouette en Tendu on SRTP. Record 3–5 clean trials. Screen-capture live quaternion plots, metric scores, and agent decisions simultaneously. Film tight-crop B-roll of rig on waist/wrists/head/ankles (face optional; prioritize gear visibility). |
+| Wed 12/30 | Final README with full-lifecycle framing + architecture diagram + Motion Primitive protocol section |
+| Thu 12/31 | **Motion Primitive Capture Session:** Perform barefoot Pirouette en Tendu on SRTP. Record 3–5 clean trials. Screen-capture live quaternion plots, metric scores, and agent decisions simultaneously. Film tight-crop B-roll of rig on waist/wrists/head/ankles (face optional; prioritize gear visibility). |
 | Fri 1/1 | **REST — New Year's Day** |
 | Sat 1/2 | **YouTube Demo Edit:** Interleave screen capture with B-roll. Voiceover script follows Perceive → Reason → Act → Evaluate loop. Upload as unlisted. Embed at top of both READMEs. Final polish pass; pin repos; update public profiles. |
 
-**Phase Gate:** Reproducible build, automated tests, versioned configs, published demo artifact using real CVM data on SRTP.
+**Phase Gate:** Reproducible build, automated tests, versioned configs, published demo artifact using real Motion Primitive data on SRTP.
 
 ---
 
@@ -165,7 +165,7 @@ Target mix: **GitHub roles** + **Atlanta hybrid** + **national remote**, pursued
 - [ ] `acro-spin`: full-lifecycle agentic system (perceive → reason → act → evaluate → adapt)
 - [ ] **Upstream Contribution:** At least one merged PR (or active discussion) in `rclrs` or `ros2`
 - [ ] **Hardware Validation:** Minimum 4 of 6 physical nodes producing stable quaternion streams used in final demo
-- [ ] **CVM Executed:** Barefoot Pirouette en Tendu captured on SRTP with synchronized sensor + screen data
+- [ ] **Motion Primitive Executed:** Barefoot Pirouette en Tendu captured on SRTP with synchronized sensor + screen data
 - [ ] **YouTube Demo:** Unlisted video embedded in both READMEs showing full lifecycle loop with real hardware footage
 - [ ] CI/CD green on both repos; versioned configs with rollback path
 - [ ] Architecture diagrams + READMEs written in systems-engineering language
