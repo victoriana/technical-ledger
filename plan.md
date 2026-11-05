@@ -3,7 +3,7 @@
 **Cadence:** Sunday–Friday, 4 hrs/day focused engineering. Saturday = hard rest.
 **Working days:** ~48 | **Total hours:** ~192
 **Holidays protected:** Thanksgiving (11/26), Christmas Eve/Day (12/24–25), New Year's Day (1/1), GA Filk (1/8–9)
-**Critical Goals:** Secure at least one upstream ROS 2 / `rclrs` contribution; validate sensor fusion against physical hardware on SRTP using Pirouette en Tendu as CVM; produce professional YouTube demo.
+**Critical Goals:** Secure at least one upstream ROS 2 / `rclrs` contribution; validate sensor fusion against physical hardware on SRTP using Pirouette en Tendu as canonical case; produce professional YouTube demo.
 
 ---
 
