@@ -17,7 +17,7 @@
 ### Purchase List (~$90–$250 total)
 | Item | Qty | Est. Cost | Buy Where | Notes |
 |---|---|---|---|---|
-| **BNO085 Breakout Boards** | 6 | ~$120 (Adafruit) / ~$80 (clones) | Amazon / Adafruit | 9-DOF, 400Hz fusion, auto-cal, TARE. Standardized across all 6 nodes for generic upstream lib. |
+| **BNO055 Breakout Boards** | 6 | ~$80 (clones) / ~$120 (Adafruit) | Amazon / Adafruit | 9-DOF, 100Hz fusion, auto-cal, TARE. Standardized across all 6 nodes for generic upstream lib. |
 | **ESP32-WROOM-32 Dev Boards** | 7 | ~$45 | Amazon | 6 sensor nodes + 1 gateway. Needs ≥32KB RAM for BNO08x lib. |
 | **3.7V 300mAh LiPo Batteries** | 6 | ~$30 | Amazon | JST-PH connector for plug-and-play swapping. |
 | **TP4056 Charging Modules** | 6 | ~$6 | Amazon | Battery charging. |
@@ -27,7 +27,7 @@
 | **USB-C Cables** | 2–3 | ~$5 | Amazon | Gateway power + flashing spares. |
 | **Total Hardware** | | **~$90–$250** | | *SRTP (Koretch Turnboard) already owned.* |
 
-**Standardization Note:** All 6 nodes use BNO085 exclusively. Mixing IMUs (MPU9250 vs BNO085) would require two different ingestion paths in the Rust bridge, breaking the "generic primitive" story for upstream contribution.
+**Standardization Note:** All 6 nodes use BNO055 exclusively. BNO055 works reliably with ESP32-WROOM-32 over I2C. Mixing IMUs (MPU9250 vs BNO085) would require two different ingestion paths in the Rust bridge, breaking the "generic primitive" story for upstream contribution.
 
 ---
 
@@ -62,7 +62,7 @@
 ### Week 3 (Nov 22–28): Synthetic Data, Calibration & Hardware Assembly
 | Day | Deliverable |
 |---|---|
-| Sun 11/22 | Synthetic IMU generator: constant-rate spin + Gaussian noise + bias drift @ 400Hz |
+| Sun 11/22 | Synthetic IMU generator: constant-rate spin + Gaussian noise + bias drift @ 100Hz |
 | Mon 11/23 | EMA bias calibration for accel + gyro; validate against known ground truth |
 | Tue 11/24 | Unit tests for calibration module; convergence assertions within tolerance |
 | Wed 11/25 | Light day (Thanksgiving week): doc comments, module cleanup |
