@@ -25,7 +25,7 @@
 | Compression Sleeves | 6 | ~$15 | Ankle (3) + Wrist (3) sleeves for rigid sensor mounting. |
 | Athletic Belt + Headband | 1 + 1 | ~$20 | Wide elastic belt for waist; rigid plastic headband for head. |
 | 3M VHB Tape + Cohesive Wrap | 1 kit | ~$10 | For securing sensors inside sleeves/headband. |
-| USB-C Cables | 7 | ~$15 | For flashing and powering the gateway. |
+| USB-C Cables | 3 | ~$5 | For flashing and powering the gateway. |
 | **Total Hardware** | | **~$160** | *SRTP (Koretch Turnboard) already owned.* |
 
 ---
