@@ -19,7 +19,7 @@
 | Item | Qty | Est. Cost | Notes |
 |---|---|---|---|
 | BNO055 Breakout Boards | 6 | ~$120 | Adafruit/SparkFun. 9-DOF with onboard fusion. |
-| ESP32-WROOM-32 Dev Boards | 7 | ~$45 | **6 Sensor Nodes** + **1 Stationary Gateway Node**. |
+| ESP32-WROOM-32 Dev Boards | 7 | ~$45 | 6 Sensor Nodes + 1 Stationary Gateway Node. |
 | 3.7V 300mAh LiPo Batteries | 6 | ~$30 | JST-PH connector for easy plug-and-play. |
 | TP4056 Charging Modules | 6 | ~$6 | For charging the battery packs. |
 | Compression Sleeves | 6 | ~$15 | Ankle (3) + Wrist (3) sleeves for rigid sensor mounting. |
