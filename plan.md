@@ -11,22 +11,23 @@
 
 | Date | Action | Source |
 |---|---|---|
-| Sun 11/8 | Order sensor/processing parts (see list below) | Adafruit + Amazon Prime |
+| Sun 11/8 | **In-person:** Gather fitting materials (sleeves, belt, headband, tape). **Online:** Order electronics. | Pharmacy / Amazon / Adafruit |
 | Wed 11/11 | Verify delivery of all components | — |
-| Fri 11/13 | Gather fitting materials (compression sleeves, 3M VHB tape, cohesive wrap) | Pharmacy / Amazon |
 
-### Purchase List (~$160 total)
-| Item | Qty | Est. Cost | Notes |
-|---|---|---|---|
-| BNO055 Breakout Boards | 6 | ~$120 | Adafruit/SparkFun. 9-DOF with onboard fusion. |
-| ESP32-WROOM-32 Dev Boards | 7 | ~$45 | 6 Sensor Nodes + 1 Stationary Gateway Node. |
-| 3.7V 300mAh LiPo Batteries | 6 | ~$30 | JST-PH connector for easy plug-and-play. |
-| TP4056 Charging Modules | 6 | ~$6 | For charging the battery packs. |
-| Compression Sleeves | 6 | ~$15 | Ankle (3) + Wrist (3) sleeves for rigid sensor mounting. |
-| Athletic Belt + Headband | 1 + 1 | ~$20 | Wide elastic belt for waist; rigid plastic headband for head. |
-| 3M VHB Tape + Cohesive Wrap | 1 kit | ~$10 | For securing sensors inside sleeves/headband. |
-| USB-C Cables | 3 | ~$5 | For flashing and powering the gateway. |
-| **Total Hardware** | | **~$160** | *SRTP (Koretch Turnboard) already owned.* |
+### Purchase List (~$90–$250 total)
+| Item | Qty | Est. Cost | Buy Where | Notes |
+|---|---|---|---|---|
+| **BNO085 Breakout Boards** | 6 | ~$120 (Adafruit) / ~$80 (clones) | Amazon / Adafruit | 9-DOF, 400Hz fusion, auto-cal, TARE. Standardized across all 6 nodes for generic upstream lib. |
+| **ESP32-WROOM-32 Dev Boards** | 7 | ~$45 | Amazon | 6 sensor nodes + 1 gateway. Needs ≥32KB RAM for BNO08x lib. |
+| **3.7V 300mAh LiPo Batteries** | 6 | ~$30 | Amazon | JST-PH connector for plug-and-play swapping. |
+| **TP4056 Charging Modules** | 6 | ~$6 | Amazon | Battery charging. |
+| **Compression Sleeves** | 6 | ~$15 | In person | Ankle (3) + Wrist (3). Fit matters for rigid mounting. |
+| **Athletic Belt + Headband** | 1 + 1 | ~$20 | In person | Waist + head mounting. |
+| **3M VHB Tape + Cohesive Wrap** | 1 kit | ~$10 | In person | Sensor rigidity during spins. |
+| **USB-C Cables** | 2–3 | ~$5 | Amazon | Gateway power + flashing spares. |
+| **Total Hardware** | | **~$90–$250** | | *SRTP (Koretch Turnboard) already owned.* |
+
+**Standardization Note:** All 6 nodes use BNO085 exclusively. Mixing IMUs (MPU9250 vs BNO085) would require two different ingestion paths in the Rust bridge, breaking the "generic primitive" story for upstream contribution.
 
 ---
 
@@ -35,12 +36,12 @@
 ### Week 1 (Nov 8–14): Rust Language Core
 | Day | Deliverable |
 |---|---|
-| Sun 11/8 | Toolchain install; `rustlings` — variables, functions, control flow; **ORDER HARDWARE** |
+| Sun 11/8 | Toolchain install; `rustlings` — variables, functions, control flow; **ORDER HARDWARE + GATHER FITTING MATERIALS** |
 | Mon 11/9 | Ownership + borrowing exercises (highest-friction concept; allocate full block) |
 | Tue 11/10 | Structs, enums, pattern matching; CLI parsing IMU-shaped JSON |
 | Wed 11/11 | Error handling (`Result`, `Option`, `?`); refactor CLI |
 | Thu 11/12 | Generics + traits; map ROS2 message types to Rust structs via `rclrs` |
-| Fri 11/13 | Collections + iterators; moving-average filter in pure Rust; **GATHER FITTING MATERIALS** |
+| Fri 11/13 | Collections + iterators; moving-average filter in pure Rust |
 
 ### Week 2 (Nov 15–21): ROS2 Integration Layer
 | Day | Deliverable |
@@ -52,7 +53,7 @@
 | Thu 11/19 | QoS profile analysis: reliability vs best-effort tradeoffs for sensor streams |
 | Fri 11/20 | **ROS2 Contribution Sprint #1:** Review `rclrs`/`ros2_tutorials` docs for gaps. Submit PR. |
 
-**Phase Gate:** Two Rust ROS2 nodes exchanging IMU-shaped messages inside devcontainer. All hardware on desk. SRTP on floor.
+**Phase Gate:** Two Rust ROS2 nodes exchanging IMU-shaped messages inside devcontainer. Hardware on desk. SRTP on floor.
 
 ---
 
@@ -61,12 +62,12 @@
 ### Week 3 (Nov 22–28): Synthetic Data, Calibration & Hardware Assembly
 | Day | Deliverable |
 |---|---|
-| Sun 11/22 | Synthetic IMU generator: constant-rate spin + Gaussian noise + bias drift @ 100Hz |
+| Sun 11/22 | Synthetic IMU generator: constant-rate spin + Gaussian noise + bias drift @ 400Hz |
 | Mon 11/23 | EMA bias calibration for accel + gyro; validate against known ground truth |
 | Tue 11/24 | Unit tests for calibration module; convergence assertions within tolerance |
 | Wed 11/25 | Light day (Thanksgiving week): doc comments, module cleanup |
 | Thu 11/26 | **REST — protected holiday** |
-| Fri 11/27 | **Hardware Assembly Day:** Flash 7th ESP32 as **Gateway Node** (USB to laptop). Flash remaining 6 as **Sensor Nodes** (ESP-NOW). Verify 1-to-1 RF link. Mount Sensor Node #1 to waist using compression sleeve. |
+| Fri 11/27 | **Hardware Assembly Day:** Flash 7th ESP32 as **Gateway Node** (USB to laptop). Flash remaining 6 as **Sensor Nodes** (ESP-NOW/Wi-Fi). Verify 1-to-1 RF link. Mount Sensor Node #1 to waist using compression sleeve. |
 
 ### Week 4 (Nov 29–Dec 5): Madgwick AHRS + Single Node Real Data
 | Day | Deliverable |
@@ -146,7 +147,7 @@ Target mix: **GitHub roles** + **Atlanta hybrid** + **national remote**, pursued
 | Mon 1/4 | Rehearse three STAR stories aloud (pivot, hardest bug, staff-mindset); record and review |
 | Tue 1/5 | Build target list (~15 orgs): GitHub, Anduril, GTRI, Greenzie, Mujin, Eureka, remote Physical AI startups; note each org's recent AI/robotics announcements |
 | Wed 1/6 | First outreach batch: 5 personalized recruiter/hiring-manager notes + 3 portal applications with tailored cover notes |
-| Thu 1/7 | 45-min mock interview: technical grilling on Acro Spins architecture + DevOps-for-AI questions; finalize applications |
+| Thu 1/7 | 45-min mock interview: technical grilling on Acro Spin's architecture + DevOps-for-AI questions; finalize applications |
 
 ---
 
