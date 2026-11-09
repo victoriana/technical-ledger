@@ -28,7 +28,7 @@ Scope decision: **single waist-mounted node** for field validation. Multi-node k
 | **Soldering Kit (80W LCD, adjustable)** | 1 | $18.98 | Amazon | Fine conical tip required for TP4056 pads. Includes desolder pump + flux. |
 | **Athletic Belt or Waist Pouch** | 1 | ~$10 | In person | Rigid mounting. Sensor must not rotate independently of torso. |
 | **3M VHB Tape + Cohesive Wrap** | 1 kit | ~$10 | In person | Rigidity during spins is the #1 data-quality risk. |
-| **Total Hardware** | | **~$108** | | *SRTP (Koretch Turnboard) already owned.* |
+| **Total Hardware** | | **~$108** | | *SRTP (Koretch Turnboard) already owned. i.e. The Dot2Dance Turnboard* |
 
 **Mounting Note:** Waist placement was chosen because pirouettes are fundamentally a yaw rotation about the vertical axis, and yaw is the BNO055's most stable axis (its pitch axis has a known gimbal-lock limitation near ±90°, which is irrelevant for an upright torso).
 
