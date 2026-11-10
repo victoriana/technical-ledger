@@ -11,7 +11,7 @@
 
 | Date | Action | Source |
 |---|---|---|
-| Mon 11/9 | **In-person:** Gather fitting materials (waist belt/pouch, tape, strap). **Online:** Order electronics. | Pharmacy / Amazon / Adafruit |
+| Mon 11/9 | **In-person:** Gather fitting materials (waist belt/pouch, tape, strap). **Online:** Order electronics. | Amazon / Adafruit |
 | Thu 11/12 | Verify delivery of all components | — |
 
 ### Purchase List (~$108 total)
