@@ -16,7 +16,7 @@ Hands-on MLOps/LLMOps Engineer shipping production AI on AWS — agentic Claude 
 CORE SKILLS
 LLMOps/GenAI: AWS Bedrock (Claude), agentic AI, LangChain/LangGraph, RAG, prompt engineering, NL-to-SQL, model governance & evaluation
 MLOps: SageMaker (Pipelines, Endpoints, Model Registry), model life-cycle management, CI/CD for ML, endpoint monitoring (CloudWatch)
-Cloud/IaC: AWS: Lambda, Step Functions, API Gateway, S3, EC2, EKS, Redshift, CloudWatch, IAM/PKI; Docker
+Cloud/IaC: AWS: Lambda, Step Functions, API Gateway, S3, EC2, EKS, Redshift, CloudWatch, IAM/PKI; Docker; Terraform
 Data Platforms: Databricks (lakehouse/notebook workflows), Redshift, Oracle, Cassandra ( NoSQL), Tableau, MuleSoft
 CI/CD/Automation: Jenkins, GitHub, Conda; automated QA/performance & stress harnesses for 5+ concurrent teams
 Languages: Python (advanced), Java (Spring Framework), C/C++, SQL, Bash
