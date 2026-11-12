@@ -4,6 +4,8 @@ Welcome to my active engineering ledger. This repository serves as a markdown-na
 
 An executive one-page summary of my career history and system architecture credentials is detailed below. 
 
+> **Featured:** [NYL agentic POC summary](./NYL_POC_SUMMARY.md): a LangGraph and Claude (Bedrock) reflection workflow over Databricks data.
+
 ```
 RAVI BASAWA, US citizen
 Senior Systems & Infrastructure Engineer | Enterprise DevOps & Data Pipelines
