@@ -19,12 +19,12 @@ CORE SKILLS
 LLMOps/GenAI: AWS Bedrock (Claude), agentic AI, LangChain/LangGraph, RAG, prompt engineering, NL-to-SQL, model governance & evaluation
 MLOps: SageMaker (Pipelines, Endpoints, Model Registry), model life-cycle management, CI/CD for ML, endpoint monitoring (CloudWatch)
 Cloud/IaC: AWS: Lambda, Step Functions, API Gateway, S3, EC2, EKS, Redshift, CloudWatch, IAM/PKI; Docker; Terraform
-Data Platforms: Databricks (lakehouse/notebook workflows), Redshift, Oracle, Cassandra ( NoSQL), Tableau, MuleSoft
+Data Platforms: Databricks (lakehouse/notebook workflows), Redshift, Oracle, Cassandra (NoSQL), Tableau, MuleSoft
 CI/CD/Automation: Jenkins, GitHub, Conda; automated QA/performance & stress harnesses for 5+ concurrent teams
 Languages: Python (advanced), Java (Spring Framework), C/C++, SQL, Bash
 
 RECENT & RELEVANT EXPERIENCE
-NEW YORK LIFE INSURANCE — Senior Associate, Tech Data AI Ventures (TDAV)Atlanta, GA  — 2014 – 2026
+NEW YORK LIFE INSURANCE — Senior Associate, Tech Data AI Ventures (TDAV) Atlanta, GA  — 2014 – 2026
 LLMOps & Agentic AI (AWS Bedrock / SageMaker)
 • Pioneered enterprise LLMOps on AWS SageMaker and Bedrock; built agentic Claude applications with LangChain/LangGraph orchestration, version governance, and evaluation gates for production release.
 • Delivered NL-to-SQL assistant over Redshift correspondence warehouse (multi-million records), enabling self-service AI-driven business reporting.
