@@ -1,12 +1,15 @@
 # Technical Ledger
 
-Welcome to my active engineering ledger. This repository serves as a markdown-native portfolio log, centralizing my professional background, core technical competencies, and enterprise impact. 
+An active engineering ledger centralizing my professional background, core technical competencies, and enterprise impact.
 
-An executive one-page summary of my career history and system architecture credentials is detailed below. 
+I am a Senior Systems & Infrastructure Engineer with a focus on shipping reliable, scalable systems. I write the code myself, manage the deployment pipelines, and own what runs in production. My work spans full-stack development, cloud infrastructure, and modern AI applications, always with an emphasis on stability, security, and measurable impact.
 
-> **Featured:** [NYL agentic POC summary](./NYL_POC_SUMMARY.md): a LangGraph and Claude (Bedrock) reflection workflow over Databricks data.
->
-> **Also:** [Acro-spin](https://github.com/victoriana/acro-spin): agentic and physical AI on movement telemetry. · [Lit Flow Flash](https://github.com/victoriana/lit-flow-flash): an end-to-end AI writing trainer (read, write original, AI evaluation) with a test harness in a public repo.
+**Featured Work:**
+- **[NYL Agentic POC](./NYL_POC_SUMMARY.md):** LangGraph + Claude (Bedrock) workflow over Databricks data.
+- **[Acro-spin](https://github.com/victoriana/acro-spin):** Agentic and physical AI on movement telemetry.
+- **[Lit Flow Flash](https://github.com/victoriana/lit-flow-flash):** An AI writing trainer (read → write → AI critique) with a public test harness.
+
+Below is a **One-Page Resume** summarizing my career history and system architecture credentials.
 ```
 RAVI BASAWA, US citizen
 Senior Systems & Infrastructure Engineer | Enterprise DevOps & Data Pipelines
