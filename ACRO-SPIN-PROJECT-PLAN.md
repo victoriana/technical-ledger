@@ -1,3 +1,5 @@
+# ACRO-SPIN PROJECT PLAN
+
 **Start Date:** Nov 15, 2026  
 **End Date:** Jan 7```markdown
 **End Date:** Jan 7, 2027  
