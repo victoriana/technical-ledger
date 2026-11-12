@@ -5,7 +5,8 @@ Welcome to my active engineering ledger. This repository serves as a markdown-na
 An executive one-page summary of my career history and system architecture credentials is detailed below. 
 
 > **Featured:** [NYL agentic POC summary](./NYL_POC_SUMMARY.md): a LangGraph and Claude (Bedrock) reflection workflow over Databricks data.
-
+> **Also:** [Acro-spin](REPLACE_WITH_ACRO_SPIN_URL): agentic and physical AI on movement telemetry. · [Lit Flow Flash](REPLACE_WITH_LIT_FLOW_FLASH_URL): an end-to-end AI writing trainer (read, write original, AI evaluation) with a test harness in a public repo.
+> 
 ```
 RAVI BASAWA, US citizen
 Senior Systems & Infrastructure Engineer | Enterprise DevOps & Data Pipelines
