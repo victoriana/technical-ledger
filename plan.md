@@ -73,10 +73,11 @@
 - [ ] Set up persistent session memory (SQLite or JSON): athlete profile, baselines, prior scores
 - [ ] Build perception node: subscribe to ROS2 metrics topics → format agent context window
 - [ ] Build reasoning node: LLM call outputs structured coaching decision object (not free text)
-- [ ] Populate strategy bank with escalating interventions per metric:
-  - Low Precision → Attempt 1: "Use stronger verbs" → Attempt 2: "Remove all adverbs" → Attempt 3: "Constrain to 15 words"
-  - Low Smoothness → Attempt 1: "Slow your entry" → Attempt 2: "Engage core earlier" → Attempt 3: "Reduce arm range"
-- [ ] Track whether each intervention was followed and whether score improved
+- [ ] Populate strategy bank with escalating physical interventions per metric:
+  - Low Smoothness → Attempt 1: "Slow your entry to preserve momentum" → Attempt 2: "Engage core earlier and keep arms tight to ribs" → Attempt 3: "Reduce arm range of motion entirely"
+  - High Settling Time → Attempt 1: "Focus on a fixed horizon point before stopping" → Attempt 2: "Land on balls of feet with knees slightly bent" → Attempt 3: "Hold final position for 3 seconds to prove stability"
+  - High Pitch/Roll Deviation → Attempt 1: "Keep head directly over hips, look straight ahead" → Attempt 2: "Tighten glutes to maintain straight vertical axis" → Attempt 3: "Imagine a string pulling you up from the crown of your head"
+- [ ] Track whether each intervention was followed and whether score improved to determine if escalation is needed
 - [ ] If advice failed, escalate to next strategy automatically rather than repeating
 
 ## Week 6 (Dec 20–26): Evaluation Loop & Guardrails
