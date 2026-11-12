@@ -6,7 +6,7 @@ I am a Senior Systems & Infrastructure Engineer with a focus on shipping reliabl
 
 **Featured Work:**
 - **[NYL Agentic POC](./NYL_POC_SUMMARY.md):** LangGraph + Claude (Bedrock) workflow over Databricks data.
-- **[Acro-spin](https://github.com/victoriana/acro-spin):** Agentic and physical AI on movement telemetry.
+- **[Acro-spin](https://github.com/victoriana/acro-spin):** Agentic and physical AI on movement telemetry, powered by a core Rust IMU processing pipeline ([ros2-rust-workspace](https://github.com/victoriana/ros2-rust-workspace)).
 - **[Lit Flow Flash](https://github.com/victoriana/lit-flow-flash):** An AI writing trainer (read → write → AI critique) with a public test harness.
 
 Below is a **One-Page Resume** summarizing my career history and system architecture credentials.
