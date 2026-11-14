@@ -2,12 +2,14 @@
 
 An active engineering ledger centralizing my professional background, core technical competencies, and enterprise impact.
 
-I am a Senior Systems & Infrastructure Engineer with a focus on shipping reliable, scalable systems. I write the code myself, manage the deployment pipelines, and own what runs in production. My work spans full-stack development, cloud infrastructure, and modern AI applications, always with an emphasis on stability, security, and measurable impact.
+I am a Senior Systems & Infrastructure Engineer with a focus on shipping reliable, scalable systems. I write the code myself, manage the deployment pipelines, and own what runs in production. My work spans full-stack development, cloud infrastructure, and modern AI applications, always with an emphasis on stability, security, and measurable impact. My background includes an electrical engineering degree, and I'm now applying it to a self-directed Rust and edge-computing project alongside my day-to-day infrastructure and AI work.
+
+**Currently:** Open to W2 roles (contract or direct hire). Building out `lit-flow-flash` into a measurable, self-improving agent loop, with acro-spin as a longer-running background project.
 
 **Featured Work:**
 - **[NYL Agentic POC](./NYL_POC_SUMMARY.md):** LangGraph + Claude (Bedrock) workflow over Databricks data.
-- **[Acro-spin](https://github.com/victoriana/acro-spin):** Agentic and physical AI on movement telemetry, powered by a core Rust IMU processing pipeline ([ros2-rust-workspace](https://github.com/victoriana/ros2-rust-workspace)).
-- **[Lit Flow Flash](https://github.com/victoriana/lit-flow-flash):** An AI writing trainer (read → write → AI critique) with a public test harness.
+- **[Lit Flow Flash](https://github.com/victoriana/lit-flow-flash):** An AI writing trainer (read → write → AI critique) with a public test harness. In progress: evolving it into an agentic loop (generate → score → critique → revise) with an evaluation set, baseline comparison, and guardrails.
+- **[Acro-spin](https://github.com/victoriana/acro-spin):** A self-directed design and build plan for an agentic coach driven by IMU movement data, developed simulation first: synthetic data, kinematic metrics, and a LangGraph agent loop are validated in software before any hardware is used. Active as a background project with no fixed timeline. Supporting scaffolding: [ros2-rust-workspace](https://github.com/victoriana/ros2-rust-workspace) (Rust + ROS 2 in a devcontainer). See the [project plan](./ACRO-SPIN-PROJECT-PLAN.md).
 
 Below is a **One-Page Resume** summarizing my career history and system architecture credentials.
 ```
