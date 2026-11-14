@@ -17,7 +17,7 @@ Atlanta, GA (open to hybrid or remote) · rbasawa1@gmail.com · 678-851-2365
 github.com/victoriana · linkedin.com/in/ravibasawa
 
 PROFESSIONAL SUMMARY
-Hands-on MLOps/LLMOps Engineer shipping production AI on AWS — agentic Claude apps on Bedrock, SageMaker pipelines, and NL-to-SQL/RAG workloads over multi-million-record Redshift warehouses. I write the Python and Java myself, deploy through CI/CD, and own what runs in production. Fast-moving, tool-current, and most useful embedded with a team that's actually building.
+Hands-on MLOps/LLMOps Engineer shipping production AI on AWS — agentic Claude apps on Bedrock, SageMaker pipelines, and NL-to-SQL/RAG workloads over multi-million-record Redshift warehouses. I write the Python and Java myself, deploy through CI/CD, and own what runs in production. Strongest on hands-on teams shipping AI to production
 
 CORE SKILLS
 LLMOps/GenAI: AWS Bedrock (Claude), agentic AI, LangChain/LangGraph, RAG, prompt engineering, NL-to-SQL, model governance & evaluation
