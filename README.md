@@ -2,7 +2,7 @@
 
 An active engineering ledger centralizing my professional background, core technical competencies, and enterprise impact.
 
-I am a Senior Systems & Infrastructure Engineer with a focus on shipping reliable, scalable systems. I write the code myself, manage the deployment pipelines, and own what runs in production. My work spans full-stack development, cloud infrastructure, and modern AI applications, always with an emphasis on stability, security, and measurable impact. My background includes an electrical engineering degree, and I'm now applying it to a self-directed Rust and edge-computing project alongside my day-to-day infrastructure and AI work.
+I am a Senior Systems & Infrastructure Engineer with a focus on shipping reliable, scalable systems. I write the code myself, manage the deployment pipelines, and own what runs in production. My work spans full-stack development, cloud infrastructure, and modern AI applications, always with an emphasis on stability, security, and measurable impact. I hold an M.S. in Computer Science from the University of Georgia and an electrical engineering degree from Georgia Tech, with a Certificate in Computer Engineering. Alongside my infrastructure and AI work, I'm applying that hardware-meets-software background to a self-directed Rust and edge-computing project.
 
 **Currently:** Open to W2 roles (contract or direct hire). Building out `lit-flow-flash` into a measurable, self-improving agent loop, with acro-spin as a longer-running background project.
 
