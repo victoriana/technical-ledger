@@ -24,9 +24,9 @@ Senior engineer with deep Linux, AWS cloud, Java/Python, CI/CD, and Databricks/d
 now focused on production LLMOps and agentic AI on Bedrock. I write the code, deploy via CI/CD, and own production.
 
 CORE SKILLS
-LLMOps/GenAI: AWS Bedrock (Claude), agentic AI, LangChain/LangGraph, RAG, prompt engineering, NL-to-SQL, model governance/evaluation
+LLMOps/GenAI: AWS Bedrock (Claude), agentic AI, LangChain/LangGraph, RAG, NL-to-SQL, model governance/evaluation
 MLOps: SageMaker (Pipelines, Endpoints, Model Registry), model lifecycle management, CI/CD for ML, CloudWatch monitoring
-Cloud/IaC: AWS: Lambda, Step Functions, API Gateway, S3, EC2, EKS, Redshift, CloudWatch, IAM/PKI; Linux/UNIX; Docker; Terraform
+Cloud/IaC: AWS: Lambda, Step Functions, API Gateway, S3, EC2, EKS, Redshift, CloudWatch, IAM/PKI; Linux/UNIX; Docker
 Data Platforms: Databricks (lakehouse/notebook workflows), Redshift, Oracle, Cassandra (NoSQL), Tableau, MuleSoft
 CI/CD/Automation: Jenkins, GitHub, Conda; QA/performance & stress harnesses for 5+ teams
 Languages: Python (advanced), Java (Spring), C/C++, SQL, Bash
@@ -37,8 +37,8 @@ NEW YORK LIFE INSURANCE — Senior Associate, Tech Data AI Ventures (TDAV) Atlan
 LLMOps & Agentic AI (AWS Bedrock / SageMaker) — Nov 2025 – Apr 2026
 • Built enterprise LLMOps on AWS SageMaker and Bedrock; agentic Claude applications with LangChain/LangGraph orchestration,
 version governance, and evaluation gates for production release.
-• Delivered NL-to-SQL assistant over a multi-million-record Redshift correspondence warehouse, enabling self-service AI reporting.
-• Established model lifecycle practices — registry, versioning, endpoint deployment, CloudWatch monitoring — within enterprise security.
+• Delivered NL-to-SQL assistant over multi-million-record Redshift correspondence warehouse, enabling self-service AI reporting.
+• Established model lifecycle practices — registry, versioning, endpoint deployment, CloudWatch  — within enterprise security.
 AWS Cloud Migration & Serverless Architecture
 • Migrated Java pre/post-processing pipelines from on-prem Linux to AWS via Lambda, Step Functions, API Gateway,
 and S3 event triggers — zero production incidents across all migration waves.
@@ -48,9 +48,11 @@ Platform, API & ETL Engineering
 • Authored Python automation adopted into BAU cloud delivery; maintained Docker/EKS workloads supporting concurrent releases.
 CI/CD, Testing & Technical Leadership
 • Designed Jenkins CI/CD plus performance/stress-testing frameworks for 5+ teams; upskilled engineers on automation, Git, and AWS.
-• Remediated critical vulnerabilities including FTP/SFTP exposure; enforced PKI-based pipeline access; led credential-management remediation under TDLC governance.
+• Remediated critical vulnerabilities including FTP/SFTP exposure; enforced PKI-based pipeline access;
+led credential-management remediation under TDLC governance.
 
-PROJECT (Apr 2026 – Present): lit-flow-flash, agentic AI writing trainer (TypeScript, Go MCP server, eval set, guardrails); github.com/victoriana/lit-flow-flash
+PROJECT (Apr 2026 – Present): lit-flow-flash, agentic AI writing trainer (TypeScript, Go MCP server, eval set, guardrails);
+github.com/victoriana/lit-flow-flash
 
 EARLIER CAREER — AT&T, AirSage, Accenture | Big Data, Cloud & Enterprise Software
 Architected a multi-tenant Apache Cassandra NoSQL platform at carrier scale (AT&T); built "FastCache," an in-memory geo-fencing engine
