@@ -20,7 +20,8 @@ Atlanta, GA (open to hybrid or remote) · Open to W2 · rbasawa1@gmail.com · 67
 github.com/victoriana · linkedin.com/in/ravibasawa
 
 PROFESSIONAL SUMMARY
-Senior engineer with deep Linux, AWS cloud, Java/Python, CI/CD, and Databricks/data-pipeline experience at enterprise scale, now focused on production LLMOps and agentic AI on Bedrock. I write the code, deploy via CI/CD, and own production.
+Senior engineer with deep Linux, AWS cloud, Java/Python, CI/CD, and Databricks/data-pipeline experience at enterprise scale,
+now focused on production LLMOps and agentic AI on Bedrock. I write the code, deploy via CI/CD, and own production.
 
 CORE SKILLS
 LLMOps/GenAI: AWS Bedrock (Claude), agentic AI, LangChain/LangGraph, RAG, prompt engineering, NL-to-SQL, model governance/evaluation
@@ -34,11 +35,13 @@ Certifications: AWS ML Engineer – Associate (in progress); GenAI Developer –
 EXPERIENCE
 NEW YORK LIFE INSURANCE — Senior Associate, Tech Data AI Ventures (TDAV) Atlanta, GA — 2014 – Apr 2026
 LLMOps & Agentic AI (AWS Bedrock / SageMaker) — Nov 2025 – Apr 2026
-• Built enterprise LLMOps on AWS SageMaker and Bedrock; agentic Claude applications with LangChain/LangGraph orchestration, version governance, and evaluation gates for production release.
+• Built enterprise LLMOps on AWS SageMaker and Bedrock; agentic Claude applications with LangChain/LangGraph orchestration,
+version governance, and evaluation gates for production release.
 • Delivered NL-to-SQL assistant over a multi-million-record Redshift correspondence warehouse, enabling self-service AI reporting.
 • Established model lifecycle practices — registry, versioning, endpoint deployment, CloudWatch monitoring — within enterprise security.
 AWS Cloud Migration & Serverless Architecture
-• Migrated Java pre/post-processing pipelines from on-prem Linux to AWS via Lambda, Step Functions, API Gateway, and S3 event triggers — zero production incidents across all migration waves.
+• Migrated Java pre/post-processing pipelines from on-prem Linux to AWS via Lambda, Step Functions, API Gateway,
+and S3 event triggers — zero production incidents across all migration waves.
 • Replaced legacy EDM Hadoop/Tableau reporting with Amazon Redshift, creating a scalable cloud data foundation for AI agents.
 Platform, API & ETL Engineering
 • Built production RESTful/SOAP APIs in Java/Spring and Python microservices, plus ETL pipelines for mailing intake and e-delivery.
@@ -50,7 +53,8 @@ CI/CD, Testing & Technical Leadership
 PROJECT (Apr 2026 – Present): lit-flow-flash, agentic AI writing trainer (TypeScript, Go MCP server, eval set, guardrails); github.com/victoriana/lit-flow-flash
 
 EARLIER CAREER — AT&T, AirSage, Accenture | Big Data, Cloud & Enterprise Software
-Architected a multi-tenant Apache Cassandra NoSQL platform at carrier scale (AT&T); built "FastCache," an in-memory geo-fencing engine with sub-second spatial queries (AirSage); led U.S. C/C++/UNIX capability and a predictive-analytics center (Accenture).
+Architected a multi-tenant Apache Cassandra NoSQL platform at carrier scale (AT&T); built "FastCache," an in-memory geo-fencing engine
+with sub-second spatial queries (AirSage); led U.S. C/C++/UNIX capability and a predictive-analytics center (Accenture).
 
 EDUCATION
 M.S., Computer Science — University of Georgia
