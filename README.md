@@ -13,6 +13,8 @@ I am a Senior Systems & Infrastructure Engineer with a focus on shipping reliabl
 - **[Acro-spin](https://github.com/victoriana/acro-spin):** A self-directed design and build plan for an agentic coach driven by IMU movement data, developed simulation first: synthetic data, kinematic metrics, and a LangGraph agent loop are validated in software before any hardware is used. Active as a background project with no fixed timeline. Supporting scaffolding: [ros2-rust-workspace](https://github.com/victoriana/ros2-rust-workspace) (Rust + ROS 2 in a devcontainer). See the [project plan](./ACRO-SPIN-PROJECT-PLAN.md).
 
 Below is a **One-Page Resume** summarizing my career history and system architecture credentials.
+📄 **[View / Download Full Resume (PDF)](./Ravi_Basawa_Resume.pdf)**
+
 ```
 RAVI BASAWA, US citizen
 Senior Systems & Infrastructure Engineer
