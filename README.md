@@ -4,7 +4,7 @@
 An active engineering ledger centralizing my professional background, core technical competencies, and enterprise impact.
 
 Below is a **One-Page Resume** summarizing my career history and system architecture credentials.
-📄 **[View / Download Full Resume (PDF)](./Ravi_Basawa_Resume.pdf)**
+📄 **[Please View / Download Full Resume (PDF) Here](./Ravi_Basawa_Resume.pdf)**
 
 **Currently:** Open to W2 roles (contract or direct hire). Building out `lit-flow-flash` into a measurable, self-improving agent loop, with acro-spin as a longer-running background project.
 
